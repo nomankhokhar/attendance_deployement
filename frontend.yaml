@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nomanali1114/frontend:latest
+          image: nomanali1114/frontend
           ports:
             - containerPort: 80
           resources:
