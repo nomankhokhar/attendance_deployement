@@ -29,8 +29,8 @@ Ensure you have the following installed:
 ### **Deploy the Services**
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/kubernetes-deployment.git
-   cd kubernetes-deployment
+   git clone https://github.com/nomankhokhar/attendance_deployement
+   cd attendance_deployement
    ```
 
 2. Apply the Kubernetes YAML files:
