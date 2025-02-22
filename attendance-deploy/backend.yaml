@@ -16,7 +16,7 @@ spec:
         - name: backend
           image: nomanali1114/backend:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 5000
           envFrom:
             - configMapRef:
                 name: backend-config
@@ -30,8 +30,8 @@ spec:
     app: backend
   ports:
     - protocol: TCP
-      port: 8080
-      targetPort: 8080
+      port: 5000
+      targetPort: 5000
   type: ClusterIP
 ---
 apiVersion: v1
