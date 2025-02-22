@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: nomanali1114/backend
+          image: nomanali1114/backend:latest
           ports:
             - containerPort: 8080
           envFrom:
